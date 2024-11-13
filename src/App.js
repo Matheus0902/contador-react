@@ -17,8 +17,8 @@ export default function App() {
     <h1>Contador</h1>
     <p id="number">{numero}</p>
     <div id="box-buttons">
-      <button onClick={add} id="sum">Mais</button>
       <button onClick={sub} id="sub">Menos</button>
+      <button onClick={add} id="sum">Mais</button>
     </div>
   </div>
 }
